@@ -817,10 +817,10 @@ footer .twitter-share-button {
   -moz-animation: lighthouse 4s 0.1s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
   animation: lighthouse 4s 0.1s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
   margin: 0px -64px;
-  background-size: 256px 128px;
-  height: 128px;
-  width: 256px;
-  background-image: url(http://www.freeiconspng.com/uploads/displaying-18-images-for-android-music-icon-png--27.png);
+  background-size: 40vmin 40vmax;
+  height: 40vmax;
+  width: 40vmin;
+  background-image: url(../images/android.png);
   background-repeat: no-repeat;
   bottom: 64px;
   position: absolute;
@@ -994,9 +994,9 @@ footer .twitter-share-button {
   -moz-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
   margin: 0px -140px;
-  background-size: 280px 280px;
-  height: 280px;
-  width: 280px;
+  background-size: 25vh 25vh;
+  height: 25vh;
+  width: 25vh;
   background-repeat: no-repeat;
   position: absolute;
   top: -4px;
@@ -1439,6 +1439,19 @@ footer .twitter-share-button {
     right: auto;
   }
 
+  .board {
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    margin: 0px -140px;
+    background-size: 23vh 23vh;
+    height: 23vh;
+    width: 23vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -4px;
+    left: 0;
+  }
   .center {
     max-width: 440px;
   }
@@ -1510,9 +1523,9 @@ footer .twitter-share-button {
 
   .lighthouse {
     margin: 0px -96px;
-    background-size: 192px 336px;
-    height: 336px;
-    width: 192px;
+    background-size: 30vmin 30vmax;
+    height: 30vmax;
+    width: 30vmin;
     bottom: 128px;
   }
 
@@ -1736,6 +1749,19 @@ footer .twitter-share-button {
     font-size: 15px;
   }
 
+  .board {
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    margin: 0px -140px;
+    background-size: 23vh 23vh;
+    height: 23vh;
+    width: 23vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -4px;
+    left: 0;
+  }
   .center {
     max-width: 560px;
   }
@@ -1767,9 +1793,9 @@ footer .twitter-share-button {
 
   .lighthouse {
     margin: 0px -104px;
-    background-size: 208px 364px;
-    height: 364px;
-    width: 208px;
+    background-size: 30vmin 30vmax;
+    height: 30vmax;
+    width: 30vmin;
     bottom: 128px;
   }
 
