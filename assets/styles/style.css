@@ -612,7 +612,7 @@ footer .twitter-share-button {
   padding: 1em 0 1.1em;
   display: block;
 }
-.about .panel .links a.github:before, .about .panel .links a.download:before {
+.about .panel .links a.no:before, .about .panel .links a.yes:before {
   content: "";
   font-family: "icons";
   text-transform: none;
@@ -625,10 +625,10 @@ footer .twitter-share-button {
   position: relative;
   top: -1px;
 }
-.about .panel .links a.download:before {
+.about .panel .links a.yes:before {
   /*content: "d";*/
 }
-.about .panel .links a.github:before {
+.about .panel .links a.no:before {
   margin-right: 0.4em;
   /*content: "g";*/
 }
