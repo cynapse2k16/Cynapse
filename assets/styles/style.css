@@ -576,6 +576,7 @@ footer .twitter-share-button {
 .about .panel .links:after {
   clear: both;
 }
+
 .about .panel .links li {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2785,3 +2786,4 @@ html.touch .links a.tap {
     background-image: url(../graphics/awwwards_sotd_green_right2x.png);
   }
 }
+
