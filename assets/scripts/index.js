@@ -35,13 +35,13 @@ app.controller('EventCtrl', function ($scope) {
         'Paper Presentation of Rmk'
     ]
 
-    $scope.generateText = function (i) {
+    $scope.generateText = function (i,id) {
         strr = ""
         for( j = 0; j < $scope.events[i].length; j++) {
-            strr += $scope.events[i][j] + '\n';
+            strr += $scope.events[i][j] + '<br><br>';
         }
         //alert(strr);
-        return strr;
+        document.getElementById(id).innerHTML = strr;
     };
 
 
